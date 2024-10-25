@@ -39,11 +39,14 @@ for pacjent in baza_pacjentow:
 
 print(pacjenci_per_oddział)
 
+def usuwaniePacjentaZBazy():
+    with open("pacjenci.json", encoding='utf-8') as pacjenci_json:
+        baza_pacjentow = json.load(pacjenci_json)
+        print(f"baza przed usunieciem: {baza_pacjentow}")
+        pesel_do_usuniecia = input("wpisz swoj pesel ")
+        baza_pacjentow.pop(pesel_do_usuniecia)
+        print(f"baza po usunieciu: {baza_pacjentow}")
 
-with open("pacjenci.json", encoding='utf-8') as pacjenci_json:
-    baza_pacjentow = json.load(pacjenci_json)
-    print(f"baza przed usunieciem: {baza_pacjentow}")
-    pesel_do_usuniecia = input("wpisz swoj pesel ")
-    baza_pacjentow.pop(pesel_do_usuniecia)
-    print(f"baza po usunieciu: {baza_pacjentow}")
 
+
+usuwaniePacjentaZBazy()
