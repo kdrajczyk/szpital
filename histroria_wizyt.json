@@ -1,0 +1,49 @@
+"1234567890": {
+    "imie": "Katarzyna",
+    "nazwisko": "Drajczyk",
+    "numer pesel": "1234567890",
+    "oddzial": "alergologia",
+    "diagnoza": "AZS",
+    "data": "26.10.2024"
+},
+"1234567891": {
+    "imie": "Anna",
+    "nazwisko": "Kowalczyk",
+    "numer pesel": "1234567891",
+    "oddzial": "neurologia",
+    "diagnoza": "rak",
+    "data": "27.10.2024"
+    },
+"1234567892": {
+    "imie": "Maria",
+    "nazwisko": "Kowalska",
+    "numer pesel": "1234567892",
+    "oddzial": "kardiologia",
+    "diagnoza": "nadcisnienie",
+    "data": "28.10.2024"
+    },
+"1234567893": {
+    "imie": "Jan",
+    "nazwisko": "Dabrowski",
+    "numer pesel": "1234567893",
+    "oddzial": "nefrologia",
+    "diagnoza": "AKI",
+    "data": "28.10.2024"
+},
+"1234567894": {
+    "imie": "Joanna",
+    "nazwisko": "Wlodarczyk",
+    "numer pesel": "1234567894",
+    "oddzial": "neurologia",
+    "diagnoza": "demencja",
+    "data": "11.03.2024"
+},
+"1234567895": {
+    "imie": "Bartosz",
+    "nazwisko": "Nowak",
+    "numer pesel": "1234567895",
+    "oddzial": "kardiologia",
+    "diagnoza": "zator",
+    "data": "10.03.2024"
+}
+{"1234567890": {"imie": "Katarzyna", "nazwisko": "Drajczyk", "numer pesel": "1234567890", "oddzial": "alergologia", "diagnoza": "AZS", "data": "30.10.2024"}}
