@@ -20,18 +20,44 @@ def HistoriaWizytPacjenta():
 
 
 def dodawaniePacjenta():
-    imie_nowego_pacjenta = input("Podaj imie: ")
-    print(imie_nowego_pacjenta)
-    nwzwisko_nowego_pacjenta = input("Podaj nazwisko: ")
-    print(nwzwisko_nowego_pacjenta)
-    numer_pesel_nowego_pacjenta = input("Podaj numer pesel pacjenta: ")
-    print(numer_pesel_nowego_pacjenta)
-    wiek_nowego_pacjenta = input("Podaj wiek: ")
-    print(wiek_nowego_pacjenta)
-    oddzial_nowego_pacjenta = input("Podaj oddzial: ")
-    print(oddzial_nowego_pacjenta)
-    diagnoza_nowego_pacjenta = input("Podaj diagnoze: ")
-    print(diagnoza_nowego_pacjenta)
+    while True:
+        imie_nowego_pacjenta = str(input("Podaj imie: "))
+        for letter in imie_nowego_pacjenta:
+            print(ord(letter))
+            if ord(letter) in [48, 49, 50, 51, 52, 53, 54, 55, 56, 57]:
+                print("to jest liczba")
+        print(imie_nowego_pacjenta)
+        nazwisko_nowego_pacjenta = input("Podaj nazwisko: ")
+        print(nazwisko_nowego_pacjenta)
+        numer_pesel_nowego_pacjenta = input("Podaj numer pesel pacjenta: ")
+        print(numer_pesel_nowego_pacjenta)
+        wiek_nowego_pacjenta = input("Podaj wiek: ")
+        print(wiek_nowego_pacjenta)
+
+        for oddzial, numer_z_listy_oddzialow in zip(ODDZIAŁY_SZPITALNE, range(1, len(ODDZIAŁY_SZPITALNE)+1)):
+            print(numer_z_listy_oddzialow, oddzial)
+        oddzial_nowego_pacjenta = int(input("Wybierz oddzial z listy: "))
+
+        oddzial_nowego_pacjenta_wybrany_z_listy = ODDZIAŁY_SZPITALNE[oddzial_nowego_pacjenta-1]
+        print(oddzial_nowego_pacjenta_wybrany_z_listy)
+
+        diagnoza_nowego_pacjenta = input("Podaj diagnoze: ")
+        print(diagnoza_nowego_pacjenta)
+
+        profil_nowego_pacjenta= {
+            numer_pesel_nowego_pacjenta: {
+                "imie": imie_nowego_pacjenta,
+                "nazwisko": nazwisko_nowego_pacjenta,
+                "numer pesel": numer_pesel_nowego_pacjenta,
+                "oddzial": oddzial_nowego_pacjenta_wybrany_z_listy,
+                "diagnoza": diagnoza_nowego_pacjenta,
+                }
+            }
+
+        with open("pacjenci.json", encoding="utf-8", mode="a") as baza_pacjentow_json:
+            json.dumps(obj=profil_nowego_pacjenta, fp=baza_pacjentow_json, separators=(',', ':'))
+            return False
+
 
 
 
@@ -83,31 +109,37 @@ def main():
     print("5.historia wizyt pacjentow")
     print("6..wyszukaj pacjenta po numer PESEL")
     print("7.statystyka - liczba pacjentow na oddzialach")
+    print("8. Wyłacz program")
 
-    wybor_z_menu = int(input("Wybierz numer z listy: "))
-    if wybor_z_menu == 1:
-        dodawaniePacjenta()
-    elif wybor_z_menu == 2:
-        pass
-    elif wybor_z_menu == 3:
-        usuwaniePacjentaZBazy()
+    while True:
+        try:
+            wybor_z_menu = int(input("Wybierz numer z listy: "))
+            if wybor_z_menu == 1:
+                dodawaniePacjenta()
+            elif wybor_z_menu == 2:
+                pass
+            elif wybor_z_menu == 3:
+                usuwaniePacjentaZBazy()
 
-    elif wybor_z_menu == 4:
-        pass
+            elif wybor_z_menu == 4:
+                pass
 
-    elif wybor_z_menu == 5:
-        HistoriaWizytPacjenta()
+            elif wybor_z_menu == 5:
+                HistoriaWizytPacjenta()
 
-    elif wybor_z_menu == 6:
-        SzukaniePacjentaWBazie()
+            elif wybor_z_menu == 6:
+                SzukaniePacjentaWBazie()
 
-    elif wybor_z_menu == 7:
-        LiczbaPacjentowNaOddziale()
+            elif wybor_z_menu == 7:
+                LiczbaPacjentowNaOddziale()
 
-    else:
-        print("wybrales zly numer")
+            elif wybor_z_menu == 8:
+                return False
 
-
+            else:
+                print("wybrales zly numer")
+        except ValueError:
+            print("To co pdałes nie jest liczba!!! PODAJ LICZBE")
 
 
 

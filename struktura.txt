@@ -1,0 +1,34 @@
+1.dodaj pacjenta
+    1.1 dodawanie imienia
+    1.2 dodwannie nazwiska
+    1.3 dodawanie numeru PESEL
+    1.4 dodwanie wieku
+    1.5 dodawanie oddzialu
+    1.6 dodwanie diagnozy
+
+2.edytowanie danych pacjenta
+    2.1 edytowanie imienia
+    2.2 edytowanie nazwiska
+    2.3 edytowanie numeru PESEL
+    2.4 edytowanie wieku
+    2.5 edytowanie oddzialu
+    2.6 edytowanie diagnozy
+
+3.usuwanie danych pacjenta
+    3.1 usuwanie imienia
+    3.2 usuwanie nazwiska
+    3.3 usuwanie numeru PESEL
+    3.4 usuwanie wieku
+    3.5 usuwanie oddzialu
+    3.6 usuwanie diagnozy
+
+4.wyświetlanie listy pacjentów z oddzialow
+    4.1 alergologia
+    4.2 kardiologia
+    4.3 nefrologia
+    4.4 neurologia
+
+5.historia wizyt pacjentow
+6.wyszukaj pacjenta po numer PESEL
+7.statystyka - liczba pacjentow na oddzialach
+

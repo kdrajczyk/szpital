@@ -1,50 +1,49 @@
-{
-    "1234567890": {
-        "imie": "Katarzyna",
-        "nazwisko": "Drajczyk",
-        "numer pesel": "1234567890",
-        "wiek": 23,
-        "oddzial": "alergologia",
-        "diagnoza": "AZS"
+"1234567890": {
+    "imie": "Katarzyna",
+    "nazwisko": "Drajczyk",
+    "numer pesel": "1234567890",
+    "wiek": 23,
+    "oddzial": "alergologia",
+    "diagnoza": "AZS"
+},
+"1234567891": {
+    "imie": "Anna",
+    "nazwisko": "Kowalczyk",
+    "numer pesel": "1234567891",
+    "wiek": 25,
+    "oddzial": "neurologia",
+    "diagnoza": "rak"
     },
-    "1234567891": {
-        "imie": "Anna",
-        "nazwisko": "Kowalczyk",
-        "numer pesel": "1234567891",
-        "wiek": 25,
-        "oddzial": "neurologia",
-        "diagnoza": "rak"
-        },
-    "1234567892": {
-        "imie": "Maria",
-        "nazwisko": "Kowalska",
-        "numer pesel": "1234567892",
-        "wiek": 29,
-        "oddzial": "kardiologia",
-        "diagnoza": "nadcisnienie"
-        },
-    "1234567893": {
-        "imie": "Jan",
-        "nazwisko": "Dabrowski",
-        "numer pesel": "1234567893",
-        "wiek": 60,
-        "oddzial": "nefrologia",
-        "diagnoza": "AKI"
+"1234567892": {
+    "imie": "Maria",
+    "nazwisko": "Kowalska",
+    "numer pesel": "1234567892",
+    "wiek": 29,
+    "oddzial": "kardiologia",
+    "diagnoza": "nadcisnienie"
     },
-    "1234567894": {
-        "imie": "Joanna",
-        "nazwisko": "Wlodarczyk",
-        "numer pesel": "1234567894",
-        "wiek": 45,
-        "oddzial": "neurologia",
-        "diagnoza": "demencja"
-    },
-    "1234567895": {
-        "imie": "Bartosz",
-        "nazwisko": "Nowak",
-        "numer pesel": "1234567895",
-        "wiek": 35,
-        "oddzial": "kardiologia",
-        "diagnoza": "zator"
-    }
+"1234567893": {
+    "imie": "Jan",
+    "nazwisko": "Dabrowski",
+    "numer pesel": "1234567893",
+    "wiek": 60,
+    "oddzial": "nefrologia",
+    "diagnoza": "AKI"
+},
+"1234567894": {
+    "imie": "Joanna",
+    "nazwisko": "Wlodarczyk",
+    "numer pesel": "1234567894",
+    "wiek": 45,
+    "oddzial": "neurologia",
+    "diagnoza": "demencja"
+},
+"1234567895": {
+    "imie": "Bartosz",
+    "nazwisko": "Nowak",
+    "numer pesel": "1234567895",
+    "wiek": 35,
+    "oddzial": "kardiologia",
+    "diagnoza": "zator"
 }
+{"":{"imie":"3","nazwisko":"a","numer pesel":"","oddzial":"nefrologia","diagnoza":"asd"}}{"asd":{"imie":"asd","nazwisko":"asd","numer pesel":"asd","oddzial":"kardiologia","diagnoza":"a"}}{"a":{"imie":"asd","nazwisko":"a","numer pesel":"a","oddzial":"neurologia","diagnoza":"a"}}

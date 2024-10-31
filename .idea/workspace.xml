@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b1c5f41-1410-4fe9-86fd-a7406c0ed278" name="Changes" comment="" />
+    <list default="true" id="1b1c5f41-1410-4fe9-86fd-a7406c0ed278" name="Changes" comment="init baza historii wizyt pacjentow">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pacjenci.json" beforeDir="false" afterPath="$PROJECT_DIR$/pacjenci.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,15 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/kdrajczy/PycharmProjects/pythonProject",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kdrajczy/PycharmProjects/pythonProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -65,6 +69,39 @@
       <option name="presentableId" value="Default" />
       <updated>1728139866270</updated>
     </task>
+    <task id="LOCAL-00001" summary="dodanie opcji usuwania pacjentow, wyszukiwania po danej, liczenie po oddziale">
+      <option name="closed" value="true" />
+      <created>1729882761133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729882761133</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dodanie funkcji do usuwania pacjentów z bazy">
+      <option name="closed" value="true" />
+      <created>1729883291369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729883291369</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dodanie funkcji SzukaniePacjentaWBazie, LiczbaPacjentowNaOddziale, main, HistoriaWizytPacjenta">
+      <option name="closed" value="true" />
+      <created>1730302648291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730302648291</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init baza historii wizyt pacjentow">
+      <option name="closed" value="true" />
+      <created>1730302670758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730302670758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,10 +109,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dodanie opcji usuwania pacjentow, wyszukiwania po danej, liczenie po oddziale" />
+    <MESSAGE value="dodanie funkcji do usuwania pacjentów z bazy" />
+    <MESSAGE value="dodanie funkcji SzukaniePacjentaWBazie, LiczbaPacjentowNaOddziale, main, HistoriaWizytPacjenta" />
+    <MESSAGE value="init baza historii wizyt pacjentow" />
+    <option name="LAST_COMMIT_MESSAGE" value="init baza historii wizyt pacjentow" />
   </component>
 </project>
